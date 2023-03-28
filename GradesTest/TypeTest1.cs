@@ -2,7 +2,6 @@ using GradesApp3;
 
 namespace GradesTest
 {
-
     public class TypeTests
     {
         [Test]
@@ -15,7 +14,6 @@ namespace GradesTest
             Assert.False(student1.Equals(student2));
             Assert.False(Object.ReferenceEquals(student1, student2));
         }
-
         [Test]
         public void TwoVarsCanReferenceSameObject()
         {
@@ -26,7 +24,6 @@ namespace GradesTest
             Assert.True(student1.Equals(student2));
             Assert.True(Object.ReferenceEquals(student1, student2));
         }
-
         private StudentInMemory GetStudent(string name, string surname)
         {
             return new StudentInMemory(name, surname);
@@ -34,4 +31,3 @@ namespace GradesTest
     }
 }
 
-        
