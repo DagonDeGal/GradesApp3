@@ -44,9 +44,11 @@
                 this.AddGrade(grade);
             }
         }
+
         private bool IsUserInputPercentValue(string gradeStr, ref int grade) =>
             gradeStr.EndsWith("%") && int.TryParse(gradeStr.TrimEnd('%'), out grade)
             && grade >= 0 && grade <= 100;
+
 
         private void ConvertPercentsToGradeAndAdd(int grade)
         {
