@@ -22,6 +22,7 @@ while (true)
 
         "q - kończy liczenie, lub wychodzi z programu");
 
+
     var userChoice = Console.ReadLine();
 
     if (userChoice == "q")
