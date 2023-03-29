@@ -12,6 +12,7 @@ namespace GradesApp3
         public float Min { get; private set; }
         public float Sum { get; private set; }
         public int Count { get; private set; }
+
         public float Average
         {
             get
@@ -19,6 +20,7 @@ namespace GradesApp3
                 return this.Sum / this.Count;
             }
         }
+
         public Statistics()
         {
             this.Count = 0;
@@ -26,6 +28,7 @@ namespace GradesApp3
             this.Max = default;
             this.Min = default;
         }
+
         public void AddGrade(float grade)
         {
             this.Count++;
@@ -35,4 +38,3 @@ namespace GradesApp3
         }
     }
 }
-

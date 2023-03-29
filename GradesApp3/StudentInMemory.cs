@@ -3,6 +3,7 @@
     public class StudentInMemory : StudentBase
     {
         private List<float> grades = new List<float>();
+
         public StudentInMemory(string name, string surname)
             : base(name, surname)
         {
