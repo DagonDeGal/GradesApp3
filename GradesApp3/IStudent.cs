@@ -1,5 +1,4 @@
 ﻿using static GradesApp3.StudentBase;
-using static GradesApp3.StudentBase;
 
 namespace GradesApp3
 {
