@@ -16,7 +16,7 @@ while (true)
 {
     Console.WriteLine("Wybierz studenta: " +
 
-        "1 - student w pmięci; " +
+        "1 - student w pamięci; " +
 
         "2 - student w pliku; " +
 
